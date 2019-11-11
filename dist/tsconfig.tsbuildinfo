@@ -762,8 +762,8 @@
         "signature": "62cd1ca7e3295296c494d21493b2514f45f75d6837e61911aecdb2434f605aa0"
       },
       "/users/nnamdinwabuokei/documents/e-ticket/src/typings/category.ts": {
-        "version": "1b0631c35a1e8e5e4efa816a299fa0a88684c6c127d76ff505693f69b15047c0",
-        "signature": "c7cdde39382aec94812e49c8195092ab7c6631d6d755d0a9bdbb451b0da84acd"
+        "version": "0b92638d78f5c2120983a0bf3fbc4bc7c675d2c451a74fc918f2dd29a07dec0a",
+        "signature": "7993d42ff2bc192111e7a530d1f7011c5d2b3344e97e4e127e755a125b9b9b85"
       },
       "/users/nnamdinwabuokei/documents/e-ticket/src/typings/items.ts": {
         "version": "d4ddcd883bd2e15c28d7dc63958424dd457064f7898d91164cde183b835de7b9",
@@ -6594,8 +6594,8 @@
       "/users/nnamdinwabuokei/documents/e-ticket/node_modules/@types/bson/index.d.ts",
       "/users/nnamdinwabuokei/documents/e-ticket/node_modules/@types/mongodb/index.d.ts",
       "/users/nnamdinwabuokei/documents/e-ticket/node_modules/@types/mongoose/index.d.ts",
-      "/users/nnamdinwabuokei/documents/e-ticket/src/typings/category.ts",
       "/users/nnamdinwabuokei/documents/e-ticket/src/typings/items.ts",
+      "/users/nnamdinwabuokei/documents/e-ticket/src/typings/transaction.ts",
       "/users/nnamdinwabuokei/documents/e-ticket/src/typings/user.ts",
       "/users/nnamdinwabuokei/documents/e-ticket/node_modules/@babel/types/lib/index.d.ts",
       "/users/nnamdinwabuokei/documents/e-ticket/node_modules/@types/babel__generator/index.d.ts",
@@ -6756,7 +6756,7 @@
       "/users/nnamdinwabuokei/documents/e-ticket/node_modules/@types/uuid/index.d.ts",
       "/users/nnamdinwabuokei/documents/e-ticket/node_modules/@types/yargs-parser/index.d.ts",
       "/users/nnamdinwabuokei/documents/e-ticket/node_modules/@types/yargs/index.d.ts",
-      "/users/nnamdinwabuokei/documents/e-ticket/src/typings/transaction.ts"
+      "/users/nnamdinwabuokei/documents/e-ticket/src/typings/category.ts"
     ]
   },
   "version": "3.5.3"
