@@ -2,9 +2,7 @@ import mongoose from "mongoose";
 import uuid4 from "uuid/v4";
 import { UserType } from "../typings/user";
 
-export interface UserSchema extends UserType, mongoose.Document {
-  userId: string;
-}
+export interface UserSchema extends UserType, mongoose.Document {}
 
 const User = new mongoose.Schema(
   {
@@ -34,7 +32,8 @@ const User = new mongoose.Schema(
 
     email: {
       type: String,
-      required: true
+      required: true,
+      unique: true
     },
 
     isAdmin: {
@@ -47,6 +46,15 @@ const User = new mongoose.Schema(
 
     deleted: {
       type: Boolean
+    },
+    salt: {
+      type: String
+    },
+    hash: {
+      type: String
+    },
+    token: {
+      type: String
     }
   },
   { id: false, timestamps: true }
