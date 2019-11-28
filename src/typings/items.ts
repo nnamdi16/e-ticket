@@ -6,4 +6,5 @@ export interface ItemType extends Document {
   categoryId: string;
   price: number;
   deleted: boolean;
+  [key: string]: any;
 }

@@ -5,4 +5,5 @@ export interface TransactionType extends Document {
   productsId: string;
   cashierId: string;
   total: number;
+  [key: string]: any;
 }
